@@ -7,7 +7,7 @@ import image5 from "../Assets/image5.png";
 import image6 from "../Assets/image6.png";
 import image7 from "../Assets/image7.png";
 import image8 from "../Assets/image8.png";
-import '../Components/Group.css';
+
 
 function Group() {
   return (

@@ -1,18 +1,21 @@
-import "./App.css";
-import Group from "./Components/Group";
-import Home from "./Components/Home";
+import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
+import StickyNavbar from "./Components/Navbar/StickyNavbar";
+import Home from "./Components/Home";
+import Group from "./Components/Group";
 import Topics from "./Components/Topics";
-// import StickyNavbar from "./Components/Navbar/StickyNavbar";
+import Discussion from "./Components/Discussion";
+
 
 function App() {
   return (
-    <div className="App">
-     <Navbar />
-     {/* <StickyNavbar /> */}
-     <Home />
-     <Group />
-     <Topics />
+    <div>
+      <Navbar />
+      <StickyNavbar />
+      <Home />
+      <Group />
+      <Topics />
+      <Discussion />
     </div>
   );
 }
