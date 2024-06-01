@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .m-4 {
+    margin: 1rem;
+  }
+  
+  .w-24 {
+    width: 6rem;
+  }
+  
+  .h-24 {
+    height: 6rem;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
+  
