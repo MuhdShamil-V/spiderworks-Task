@@ -11,7 +11,7 @@ import '../Components/Group.css';
 
 function Group() {
   return (
-    <div className="flex justify-center relative items-center flex-wrap">
+    <div className="flex justify-center relative items-center flex-wrap mb-10">
       <div className="ml-[-55px] mt-72">
         <img src={image1} alt="image-1" className="w-40 h-40 rounded-full bg-pink-100 pl-4 pr-3 pt-2" />
       </div>
